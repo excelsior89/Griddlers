@@ -14,10 +14,11 @@ A pre-bundled package like [Anaconda](https://www.anaconda.com/) is an easy way 
 ## How to use
 Run the script from the command line as follows (navigate to the directory containing Nonogram.py and SvgFuncs.py):
 
-  py Nonogram.py <input-image-path> <background-colour> <output-svg-path> [-s]
+  ``py Nonogram.py <input-image-path> <background-colour> <output-svg-path> [-s]``
   
 Example:
-  py Nonogram.py Smile.png #ffffff SmileGriddler.svg -s
+
+  ``py Nonogram.py Smile.png #ffffff SmileGriddler.svg -s``
 
 The background colour should be a hex rgb triple of the format #rrggbb. The optional -s flag is used to generate a solution image (already solved) instead of a puzzle image.
 
